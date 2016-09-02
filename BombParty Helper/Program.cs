@@ -12,8 +12,7 @@ namespace BombParty_Helper
 {
     internal static class Program
     {
-        private static string _letter = string.Empty;
-        private static readonly List<string> word_ = new List<string>();
+             private static readonly List<string> word_ = new List<string>();
 
         [STAThread]
         private static void Main()
